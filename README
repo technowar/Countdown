@@ -1,2 +1,7 @@
 This is a countdown timer iOS Application that is using
 a third party library called JDFlipNumberView.
+
+Supports both iPhone and iPad.
+Supports both orientation, landscape and portrait.
+
+In order to work, add 'QuartzCore.framework' to Linked Frameworks and Libraries.
