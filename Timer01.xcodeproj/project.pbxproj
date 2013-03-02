@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10087D2416E0C6CB00D3C9E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10087D2316E0C6CB00D3C9E2 /* UIKit.framework */; };
+		10087D2616E0C6CB00D3C9E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10087D2516E0C6CB00D3C9E2 /* Foundation.framework */; };
+		10087D2816E0C6CB00D3C9E2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10087D2716E0C6CB00D3C9E2 /* CoreGraphics.framework */; };
+		10087D2E16E0C6CB00D3C9E2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 10087D2C16E0C6CB00D3C9E2 /* InfoPlist.strings */; };
+		10087D3016E0C6CB00D3C9E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10087D2F16E0C6CB00D3C9E2 /* main.m */; };
+		10087D3416E0C6CB00D3C9E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10087D3316E0C6CB00D3C9E2 /* AppDelegate.m */; };
+		10087D3616E0C6CB00D3C9E2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 10087D3516E0C6CB00D3C9E2 /* Default.png */; };
+		10087D3816E0C6CB00D3C9E2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10087D3716E0C6CB00D3C9E2 /* Default@2x.png */; };
+		10087D3A16E0C6CB00D3C9E2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10087D3916E0C6CB00D3C9E2 /* Default-568h@2x.png */; };
+		10087D3D16E0C6CB00D3C9E2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10087D3C16E0C6CB00D3C9E2 /* ViewController.m */; };
+		10087D4016E0C6CB00D3C9E2 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10087D3E16E0C6CB00D3C9E2 /* ViewController.xib */; };
+		10087D5016E0C6FD00D3C9E2 /* JDDateCountdownFlipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 10087D4816E0C6FD00D3C9E2 /* JDDateCountdownFlipView.m */; };
+		10087D5116E0C6FD00D3C9E2 /* JDFlipNumberDigitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 10087D4A16E0C6FD00D3C9E2 /* JDFlipNumberDigitView.m */; };
+		10087D5216E0C6FD00D3C9E2 /* JDFlipNumberView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 10087D4B16E0C6FD00D3C9E2 /* JDFlipNumberView.bundle */; };
+		10087D5316E0C6FD00D3C9E2 /* JDFlipNumberView.m in Sources */ = {isa = PBXBuildFile; fileRef = 10087D4D16E0C6FD00D3C9E2 /* JDFlipNumberView.m */; };
+		10087D5416E0C6FD00D3C9E2 /* JDFlipNumberViewImageFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 10087D4F16E0C6FD00D3C9E2 /* JDFlipNumberViewImageFactory.m */; };
+		10087D5616E0C70900D3C9E2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10087D5516E0C70900D3C9E2 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10087D2016E0C6CB00D3C9E2 /* Timer01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timer01.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10087D2316E0C6CB00D3C9E2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		10087D2516E0C6CB00D3C9E2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		10087D2716E0C6CB00D3C9E2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		10087D2B16E0C6CB00D3C9E2 /* Timer01-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Timer01-Info.plist"; sourceTree = "<group>"; };
+		10087D2D16E0C6CB00D3C9E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		10087D2F16E0C6CB00D3C9E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		10087D3116E0C6CB00D3C9E2 /* Timer01-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Timer01-Prefix.pch"; sourceTree = "<group>"; };
+		10087D3216E0C6CB00D3C9E2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		10087D3316E0C6CB00D3C9E2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		10087D3516E0C6CB00D3C9E2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		10087D3716E0C6CB00D3C9E2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		10087D3916E0C6CB00D3C9E2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		10087D3B16E0C6CB00D3C9E2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		10087D3C16E0C6CB00D3C9E2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		10087D3F16E0C6CB00D3C9E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		10087D4716E0C6FD00D3C9E2 /* JDDateCountdownFlipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDDateCountdownFlipView.h; sourceTree = "<group>"; };
+		10087D4816E0C6FD00D3C9E2 /* JDDateCountdownFlipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDDateCountdownFlipView.m; sourceTree = "<group>"; };
+		10087D4916E0C6FD00D3C9E2 /* JDFlipNumberDigitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDFlipNumberDigitView.h; sourceTree = "<group>"; };
+		10087D4A16E0C6FD00D3C9E2 /* JDFlipNumberDigitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDFlipNumberDigitView.m; sourceTree = "<group>"; };
+		10087D4B16E0C6FD00D3C9E2 /* JDFlipNumberView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = JDFlipNumberView.bundle; sourceTree = "<group>"; };
+		10087D4C16E0C6FD00D3C9E2 /* JDFlipNumberView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDFlipNumberView.h; sourceTree = "<group>"; };
+		10087D4D16E0C6FD00D3C9E2 /* JDFlipNumberView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDFlipNumberView.m; sourceTree = "<group>"; };
+		10087D4E16E0C6FD00D3C9E2 /* JDFlipNumberViewImageFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDFlipNumberViewImageFactory.h; sourceTree = "<group>"; };
+		10087D4F16E0C6FD00D3C9E2 /* JDFlipNumberViewImageFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDFlipNumberViewImageFactory.m; sourceTree = "<group>"; };
+		10087D5516E0C70900D3C9E2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10087D1D16E0C6CB00D3C9E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10087D5616E0C70900D3C9E2 /* QuartzCore.framework in Frameworks */,
+				10087D2416E0C6CB00D3C9E2 /* UIKit.framework in Frameworks */,
+				10087D2616E0C6CB00D3C9E2 /* Foundation.framework in Frameworks */,
+				10087D2816E0C6CB00D3C9E2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10087D1716E0C6CB00D3C9E2 = {
+			isa = PBXGroup;
+			children = (
+				10087D2916E0C6CB00D3C9E2 /* Timer01 */,
+				10087D2216E0C6CB00D3C9E2 /* Frameworks */,
+				10087D2116E0C6CB00D3C9E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10087D2116E0C6CB00D3C9E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10087D2016E0C6CB00D3C9E2 /* Timer01.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10087D2216E0C6CB00D3C9E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10087D2716E0C6CB00D3C9E2 /* CoreGraphics.framework */,
+				10087D2516E0C6CB00D3C9E2 /* Foundation.framework */,
+				10087D5516E0C70900D3C9E2 /* QuartzCore.framework */,
+				10087D2316E0C6CB00D3C9E2 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		10087D2916E0C6CB00D3C9E2 /* Timer01 */ = {
+			isa = PBXGroup;
+			children = (
+				10087D4616E0C6FD00D3C9E2 /* JDFlipNumberView */,
+				10087D3216E0C6CB00D3C9E2 /* AppDelegate.h */,
+				10087D3316E0C6CB00D3C9E2 /* AppDelegate.m */,
+				10087D3B16E0C6CB00D3C9E2 /* ViewController.h */,
+				10087D3C16E0C6CB00D3C9E2 /* ViewController.m */,
+				10087D3E16E0C6CB00D3C9E2 /* ViewController.xib */,
+				10087D2A16E0C6CB00D3C9E2 /* Supporting Files */,
+			);
+			path = Timer01;
+			sourceTree = "<group>";
+		};
+		10087D2A16E0C6CB00D3C9E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				10087D2B16E0C6CB00D3C9E2 /* Timer01-Info.plist */,
+				10087D2C16E0C6CB00D3C9E2 /* InfoPlist.strings */,
+				10087D2F16E0C6CB00D3C9E2 /* main.m */,
+				10087D3116E0C6CB00D3C9E2 /* Timer01-Prefix.pch */,
+				10087D3516E0C6CB00D3C9E2 /* Default.png */,
+				10087D3716E0C6CB00D3C9E2 /* Default@2x.png */,
+				10087D3916E0C6CB00D3C9E2 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		10087D4616E0C6FD00D3C9E2 /* JDFlipNumberView */ = {
+			isa = PBXGroup;
+			children = (
+				10087D4B16E0C6FD00D3C9E2 /* JDFlipNumberView.bundle */,
+				10087D4716E0C6FD00D3C9E2 /* JDDateCountdownFlipView.h */,
+				10087D4816E0C6FD00D3C9E2 /* JDDateCountdownFlipView.m */,
+				10087D4916E0C6FD00D3C9E2 /* JDFlipNumberDigitView.h */,
+				10087D4A16E0C6FD00D3C9E2 /* JDFlipNumberDigitView.m */,
+				10087D4C16E0C6FD00D3C9E2 /* JDFlipNumberView.h */,
+				10087D4D16E0C6FD00D3C9E2 /* JDFlipNumberView.m */,
+				10087D4E16E0C6FD00D3C9E2 /* JDFlipNumberViewImageFactory.h */,
+				10087D4F16E0C6FD00D3C9E2 /* JDFlipNumberViewImageFactory.m */,
+			);
+			path = JDFlipNumberView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10087D1F16E0C6CB00D3C9E2 /* Timer01 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10087D4316E0C6CB00D3C9E2 /* Build configuration list for PBXNativeTarget "Timer01" */;
+			buildPhases = (
+				10087D1C16E0C6CB00D3C9E2 /* Sources */,
+				10087D1D16E0C6CB00D3C9E2 /* Frameworks */,
+				10087D1E16E0C6CB00D3C9E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Timer01;
+			productName = Timer01;
+			productReference = 10087D2016E0C6CB00D3C9E2 /* Timer01.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10087D1816E0C6CB00D3C9E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = OSX;
+			};
+			buildConfigurationList = 10087D1B16E0C6CB00D3C9E2 /* Build configuration list for PBXProject "Timer01" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 10087D1716E0C6CB00D3C9E2;
+			productRefGroup = 10087D2116E0C6CB00D3C9E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10087D1F16E0C6CB00D3C9E2 /* Timer01 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10087D1E16E0C6CB00D3C9E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10087D2E16E0C6CB00D3C9E2 /* InfoPlist.strings in Resources */,
+				10087D3616E0C6CB00D3C9E2 /* Default.png in Resources */,
+				10087D3816E0C6CB00D3C9E2 /* Default@2x.png in Resources */,
+				10087D3A16E0C6CB00D3C9E2 /* Default-568h@2x.png in Resources */,
+				10087D4016E0C6CB00D3C9E2 /* ViewController.xib in Resources */,
+				10087D5216E0C6FD00D3C9E2 /* JDFlipNumberView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10087D1C16E0C6CB00D3C9E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10087D3016E0C6CB00D3C9E2 /* main.m in Sources */,
+				10087D3416E0C6CB00D3C9E2 /* AppDelegate.m in Sources */,
+				10087D3D16E0C6CB00D3C9E2 /* ViewController.m in Sources */,
+				10087D5016E0C6FD00D3C9E2 /* JDDateCountdownFlipView.m in Sources */,
+				10087D5116E0C6FD00D3C9E2 /* JDFlipNumberDigitView.m in Sources */,
+				10087D5316E0C6FD00D3C9E2 /* JDFlipNumberView.m in Sources */,
+				10087D5416E0C6FD00D3C9E2 /* JDFlipNumberViewImageFactory.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		10087D2C16E0C6CB00D3C9E2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10087D2D16E0C6CB00D3C9E2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		10087D3E16E0C6CB00D3C9E2 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10087D3F16E0C6CB00D3C9E2 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10087D4116E0C6CB00D3C9E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		10087D4216E0C6CB00D3C9E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10087D4416E0C6CB00D3C9E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Timer01/Timer01-Prefix.pch";
+				INFOPLIST_FILE = "Timer01/Timer01-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		10087D4516E0C6CB00D3C9E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Timer01/Timer01-Prefix.pch";
+				INFOPLIST_FILE = "Timer01/Timer01-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10087D1B16E0C6CB00D3C9E2 /* Build configuration list for PBXProject "Timer01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10087D4116E0C6CB00D3C9E2 /* Debug */,
+				10087D4216E0C6CB00D3C9E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10087D4316E0C6CB00D3C9E2 /* Build configuration list for PBXNativeTarget "Timer01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10087D4416E0C6CB00D3C9E2 /* Debug */,
+				10087D4516E0C6CB00D3C9E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10087D1816E0C6CB00D3C9E2 /* Project object */;
+}
