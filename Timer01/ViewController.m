@@ -30,6 +30,12 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    [self layoutSubviews];
+}
+
 - (void)showDateCountdown;
 {
     // setup flipview
@@ -61,12 +67,6 @@
     }
 }
 
-- (void)viewWillAppear:(BOOL)animated
-{
-    [super viewWillAppear:animated];
-    [self layoutSubviews];
-}
-
 - (void)layoutSubviews
 {
     JDFlipNumberView *flipView = (JDFlipNumberView*)[self.view viewWithTag: 99];
@@ -79,10 +79,7 @@
                                   floor((self.view.frame.size.height/2)*0.9));
 }
 
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation
-{
-    return (toInterfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
-}
+#pragma mark - Orientation
 
 - (BOOL)shouldAutorotate
 {
